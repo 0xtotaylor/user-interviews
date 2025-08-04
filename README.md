@@ -21,19 +21,21 @@
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm, yarn, pnpm, or bun
 - Stripe account (for payment processing)
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/yourusername/user-interviews.git
    cd user-interviews
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    # or
@@ -41,11 +43,13 @@
    ```
 
 3. **Set up environment variables**
+
    ```bash
    cp .env.example .env.local
    ```
-   
+
    Add your environment variables:
+
    ```env
    NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_...
    STRIPE_SECRET_KEY=sk_test_...
@@ -54,12 +58,13 @@
    ```
 
 4. **Run the development server**
+
    ```bash
    npm run dev
    ```
 
 5. **Open your browser**
-   
+
    Navigate to [http://localhost:3500](http://localhost:3500) to see the application.
 
 ## 🏗️ Project Structure
@@ -116,6 +121,7 @@ src/
 ### Code Quality
 
 The project includes:
+
 - TypeScript with strict mode
 - ESLint configuration
 - Comprehensive JSDoc documentation
@@ -127,7 +133,7 @@ The project includes:
 Built with [shadcn/ui](https://ui.shadcn.com/) components:
 
 - Form inputs with validation
-- Interactive sliders and dropdowns  
+- Interactive sliders and dropdowns
 - Progress indicators
 - Toast notifications
 - Responsive tables
@@ -146,12 +152,12 @@ The app uses Stripe for secure payment processing:
 
 ### Environment Variables
 
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Stripe publishable key | Yes |
-| `STRIPE_SECRET_KEY` | Stripe secret key | Yes |
-| `NEXT_PUBLIC_POSTHOG_KEY` | PostHog analytics key | No |
-| `NEXT_PUBLIC_POSTHOG_HOST` | PostHog host URL | No |
+| Variable                             | Description            | Required |
+| ------------------------------------ | ---------------------- | -------- |
+| `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Stripe publishable key | Yes      |
+| `STRIPE_SECRET_KEY`                  | Stripe secret key      | Yes      |
+| `NEXT_PUBLIC_POSTHOG_KEY`            | PostHog analytics key  | No       |
+| `NEXT_PUBLIC_POSTHOG_HOST`           | PostHog host URL       | No       |
 
 ### Customization
 
@@ -208,15 +214,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
 - [Stripe](https://stripe.com/) - Payment processing
 - [Lucide](https://lucide.dev/) - Icon library
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/user-interviews/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/user-interviews/discussions)
-- **Email**: your-email@example.com
-
----
-
-<p align="center">
-  Made with ❤️ for better user research
-</p>
