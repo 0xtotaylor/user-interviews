@@ -1,4 +1,4 @@
-# 🎯 AI Interview Generator
+# User Interview Generator
 
 > Generate premium user interviews in minutes, not hours. Define your ideal customer profile and let AI create targeted interview questions to uncover user needs.
 
